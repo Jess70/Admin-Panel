@@ -1,5 +1,5 @@
 import * as actionTypes from "./actions";
-import Axios from "axios";
+import Axios from "../../utilities/Axios/Axios";
 export const login = (email, password) => {
 	console.log("login actioncreator");
 	return (dispatch) =>
