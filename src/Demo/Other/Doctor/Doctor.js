@@ -9,7 +9,7 @@ import classes from "./Doctor.module.scss";
 // import Aux from "../../hoc/_Aux";
 // import Card from "../../App/components/MainCard";
 import * as actionCreators from "../../../store/actions/doctor";
-import Axios from "axios";
+import Axios from "../../../resources/api";
 
 class Doctor extends Component {
 	state = {

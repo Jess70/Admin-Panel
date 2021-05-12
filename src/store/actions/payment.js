@@ -1,5 +1,5 @@
 import * as actionTypes from "./actions";
-import Axios from "axios";
+import Axios from "../../resources/api";
 
 export const getPayment = () => {
 	console.log("get payment actioncreator");
